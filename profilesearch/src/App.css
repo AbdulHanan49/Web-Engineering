@@ -1,0 +1,56 @@
+.App {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+#ur{
+  color: white;
+}
+.navebar{
+  background-color: rgb(192, 78, 82);
+  color:white;
+  height: 100px;
+  width: 100%;
+  margin-top:20px;
+}
+
+input[type=text]{
+  max-width: 700px;
+  width: 50vw;
+  height: 55px;
+  font-size: 20px;
+  margin-top:50px;
+  border: 2px solid black;
+}
+
+body{
+  background-color: rgb(24, 83, 220);
+}
+
+.datacontainer{
+  border: 2px solid rgb(255, 255, 255);
+  height: 310px;
+  width: 48vw;
+  padding: 5px;
+  margin-top: 80px;
+  overflow: visible;
+  text-align: left;
+
+}
+
+.dataitem{
+  font-weight: 300;
+  color: rgb(255, 255, 255);
+  margin-left: 100px;
+}
+
+.dataitem > img{
+  width: 300px;
+  height: 300px;
+  float: left;
+  margin-right: 13px;
+}
+

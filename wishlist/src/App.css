@@ -1,0 +1,63 @@
+
+input{
+  padding: 14px 32px 14px 16px;
+  border-radius: 10px 10px 10px 10px;
+  border: 2px solid grey;
+  outline: none;
+  width: 300px;
+  background-color: white;
+  margin:0 5px;
+}
+
+::placeholder {
+color: black;
+}
+
+.App {
+min-height:100vh;
+display:flex;
+justify-content: center;
+text-align: center;
+align-items: center;
+background-color: #023047;
+}
+
+.container{
+display:flex; 
+height:80vh;
+border:10px solid #8ecae6;
+padding:20px;
+flex-direction:column;
+align-items: center;
+color: white;
+}
+
+button{
+padding:15px;
+border:none;
+border-radius:30px;
+margin:0px 0px 10px;
+}
+
+.b1{
+  padding:15px;
+  border:none;
+  border-radius:30px;
+  margin:0px 20px 0px;
+  }
+
+select {
+  padding: 14px 32px 14px 16px;
+  border-radius: 10px 10px 10px 10px;
+  border: 2px solid grey;
+  outline: none;
+  width: 100px;
+  background-color: white;
+  margin:10px 5px;
+}
+
+
+.tasktext{
+  float:left;
+  margin-top: 22px;
+}
